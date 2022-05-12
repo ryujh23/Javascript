@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  
+  <head>
+      <title>Example</title>
+  </head>
+  <body>
+    <style>
+      #p1{
+      background-color: skyblue;
+      }
+      .p2{
+        background-color: lightgray;
+      }
+    </style>
+    <h1>Menu</h1>
+    <a href="#index1">Coffee</a><br>
+    <a href="#index2">Cake</a><br>
+    <a href="#index3">Juice</a><br>
+    <p id = 'p1'>HTML</p>
+    <p class = 'p2'>CSS</p>
+    <a href = "https://www.naver.com" target ="_blank">네이버</a><br>
+    <h2>Unordered List</h2>
+    <ul type="square">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    </ul> 
+
+    <h2>Ordered List</h2>
+    <ol type="A">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    </ol>
+    
+    <h2 id="index1">Menu01::Coffee</h2>
+    <ul>
+        <li>Americano</li>
+        <li>Cappuccino</li>
+        <li>Cafe latte</li>
+    </ul>
+    
+    <h2 id="index2">Menu02::Cake</h2>
+    <ul>
+        <li>Carrot cake</li>
+        <li>black tea cake</li>
+        <li>Strawberry shortcake</li>
+    </ul>
+    
+    <h2 id="index3">Menu03::Juice</h2>
+    <ul>
+        <li>orange</li>
+        <li>grape</li>
+        <li>watermelon</li>
+    </ul>
+  
+  </body>
+</html>
